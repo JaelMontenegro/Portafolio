@@ -1,50 +1,118 @@
-html{
-    background: color F 5F 5F 5px;;
- }
-header{
-    background: color EAF 2FD; ;
+.flex-container {
+    display: flex;
 }
-nav li {
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 0px;
+    gap: 611px;
+    height: 88px;
+
+}
+
+html {
+    background: color F 5F 5F 5px;
+    ;
+}
+
+header {
+    background: color EAF 2FD;
+    ;
+}
+
+.menu-link li {
     display: inline;
     text-transform: unset;
     color: gray;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     font-size: 20px;
     margin: 0 0 0 15px;
-   
+
+}
+
+.nav-mi-nombre {
+    margin: auto;
 }
 
 h1 {
-    text-align:left;
+    text-align: left;
     text-transform: unset;
     color: gray;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     font-size: 25px;
-    
-    
+
+
 }
 
-nav ul{
-    top: 0;
-    text-align: right;
-}
 
-label{
+label {
     color: gray;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
-    font-size: 17px; 
+    font-size: 17px;
 }
 
- p{
+p {
     color: gray;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: lighter;
     font-size: 17px;
-    text-align: justify; 
+    text-align: justify;
     background-color: EAF2FD;
 }
 
- 
+.tarjeta-presentacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    gap: 208px;
+    width: 1136px;
+    height: 368px;
+}
+
+.tarjeta-contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 751px;
+    height: 246px;
+
+}
+
+.tarjeta-imagen {
+    width: 368px;
+    height: 368px;
+
+    background: url(Foto-de-Perfil.jpg);
+}
+
+.pequeña-presentacion {
+    width: 751px;
+    height: 122px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    color: #464646;
+}
+
+.pequeña-introduccion {
+    width: 751px;
+    height: 52px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+
+}

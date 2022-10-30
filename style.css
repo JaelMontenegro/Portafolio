@@ -8,7 +8,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 32px 0px;
-    gap: 611px;
     height: 88px;
 
 }
@@ -114,5 +113,395 @@ p {
     font-size: 22px;
     line-height: 26px;
     color: #464646;
+
+}
+
+.seccion-sobre-mi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+    gap: 10px;
+    width: 1440px;
+    height: 383px;
+    background: #EAF2FD;
+}
+
+.tarjeta-sobre-mi {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 1136px;
+    height: 255px;
+
+}
+
+.titulo-sobre-mi {
+    width: 137px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+
+}
+
+.cuadro-informacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 88px;
+    width: 1440px;
+    height: 1245px;
+
+}
+
+.cuadro-skills {
+    width: 82px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #464646;
+}
+
+.cuadro-titulo-skills {
+    width: 82px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.titulo-skills {
+    text-align: center;
+    color: #464646;
+
+}
+
+.cuadro-iconos {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 1136px;
+    height: 174px;
+}
+
+.cuadro-html {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background: #c21010;
+}
+
+.icono-html {
+    width: 28px;
+    height: 37px;
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #041c3b;
+
+}
+
+.cuadro-javascript {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background: #FFFFFF;
+}
+
+.icono-javascript {
+    width: 28px;
+    height: 37px;
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #041c3b;
+
+}
+
+.cuadro-php {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background: #FFFFFF;
+}
+
+.icono-php {
+    width: 28px;
+    height: 37px;
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #041c3b;
+}
+
+.cuadro-node {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background: #FFFFFF;
+}
+
+.icono-node {
+    width: 28px;
+    height: 37px;
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #041c3b;
+}
+
+.cuadro-react {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background: #FFFFFF;
+}
+
+.icono-react {
+    width: 28px;
+    height: 37px;
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #041c3b;
+}
+
+.cuadro-css {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background: #FFFFFF;
+}
+
+.icono-css {
+    width: 28px;
+    height: 37px;
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #041c3b;
+}
+
+
+.cuadro-hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 1136px;
+    height: 244px;
+
+
+}
+
+.cuadro-titulo-hobbies {
+    width: 82px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+}
+
+.titulo-hobbies {
+    text-align: center;
+    color: #464646;
+
+}
+
+.cuadro-iconos-hobbies {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    width: 1136px;
+    height: 174px;
+
+}
+
+.cuadro-patinaje {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background: #FFFFFF;
+}
+
+.icono-patinaje {
+    width: 28px;
+    height: 37px;
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #041c3b;
+
+}
+
+.cuadro-guitarra {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background: #FFFFFF;
+}
+
+.icono-guitarra {
+    width: 28px;
+    height: 37px;
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #041c3b;
+
+}
+
+.cuadro-headphones {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background: #FFFFFF;
+}
+
+.icono-headphones {
+    width: 28px;
+    height: 37px;
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #041c3b;
+}
+
+.cuadro-tele {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 8px;
+    width: 176px;
+    height: 174px;
+    background: #FFFFFF;
+}
+
+.icono-tele {
+    width: 28px;
+    height: 37px;
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #041c3b;
 
 }

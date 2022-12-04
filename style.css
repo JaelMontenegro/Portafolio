@@ -1,5 +1,19 @@
+body { font-family: verdana; }
 .flex-container {
     display: flex;
+}
+
+section {
+    max-width: 1500px;
+    margin-inline: auto;
+}
+
+.section-par {
+    background: #f7f7f8;
+}
+
+.section-impar {
+    background: #EAF2FD;
 }
 
 .menu {
@@ -9,11 +23,12 @@
     align-items: center;
     padding: 32px 0px;
     height: 88px;
-
+    max-width: 1500px;
+    margin: auto;
 }
 
 html {
-    background: color F 5F 5F 5px;
+    background-color: #d6e5e3;
     ;
 }
 
@@ -23,6 +38,15 @@ header {
 }
 
 .menu-link li {
+    display: inline;
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 0 0 15px;
+
+}
+
+.nav-mi-nombre {
     display: inline;
     text-transform: unset;
     color: gray;
@@ -40,7 +64,6 @@ h1 {
     text-align: left;
     text-transform: unset;
     color: gray;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     font-size: 25px;
 
@@ -50,29 +73,19 @@ h1 {
 
 label {
     color: gray;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     font-size: 17px;
 }
 
-p {
-    color: gray;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: lighter;
-    font-size: 17px;
-    text-align: justify;
-    background-color: EAF2FD;
-}
+
 
 .tarjeta-presentacion {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0px;
-    gap: 208px;
-    width: 1136px;
-    height: 368px;
+    padding: 64px;
+    gap: 20px;
 }
 
 .tarjeta-contenido {
@@ -81,25 +94,17 @@ p {
     align-items: flex-start;
     padding: 0px;
     gap: 24px;
-    width: 751px;
-    height: 246px;
 
 }
 
 .tarjeta-imagen {
-    width: 368px;
-    height: 368px;
-
-    background: url(Foto-de-Perfil.jpg);
+    width: 60%;
 }
 
-.pequeña-presentacion {
-    width: 751px;
-    height: 122px;
-    font-family: 'Raleway';
+.pequena-presentacion {
     font-style: normal;
     font-weight: 700;
-    font-size: 52px;
+    font-size: 38px;
     line-height: 61px;
     color: #464646;
 }
@@ -107,7 +112,6 @@ p {
 .pequeña-introduccion {
     width: 751px;
     height: 52px;
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-size: 22px;
@@ -122,9 +126,6 @@ p {
     align-items: center;
     padding: 64px;
     gap: 10px;
-    width: 1440px;
-    height: 383px;
-    background: #EAF2FD;
 }
 
 .tarjeta-sobre-mi {
@@ -133,15 +134,11 @@ p {
     align-items: flex-start;
     padding: 0px;
     gap: 16px;
-    width: 1136px;
     height: 255px;
 
 }
 
 .titulo-sobre-mi {
-    width: 137px;
-    height: 38px;
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -154,16 +151,13 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
+    padding: 20px;
     gap: 88px;
-    height: 400px;
-
 }
 
 .cuadro-skills {
     width: 82px;
     height: 38px;
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -172,10 +166,7 @@ p {
     color: #464646;
 }
 
-.cuadro-titulo-skills {
-    width: 82px;
-    height: 38px;
-    font-family: 'Raleway';
+.cuadro-titulo {
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -195,8 +186,6 @@ p {
     align-items: flex-start;
     padding: 0px;
     gap: 16px;
-    width: 1136px;
-    height: 174px;
 }
 
 .cuadro-html {
@@ -208,13 +197,12 @@ p {
     gap: 8px;
     width: 176px;
     height: 174px;
-    background: #c21010;
+    background: rgb(208 229 216);
 }
 
 .icono-html {
     width: 28px;
     height: 37px;
-    font-family: 'Font Awesome 5 Brands';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -241,7 +229,6 @@ p {
 .icono-javascript {
     width: 28px;
     height: 37px;
-    font-family: 'Font Awesome 5 Brands';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -268,7 +255,6 @@ p {
 .icono-php {
     width: 28px;
     height: 37px;
-    font-family: 'Font Awesome 5 Brands';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -294,7 +280,6 @@ p {
 .icono-node {
     width: 28px;
     height: 37px;
-    font-family: 'Font Awesome 5 Brands';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -320,7 +305,6 @@ p {
 .icono-react {
     width: 28px;
     height: 37px;
-    font-family: 'Font Awesome 5 Brands';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -346,7 +330,6 @@ p {
 .icono-css {
     width: 28px;
     height: 37px;
-    font-family: 'Font Awesome 5 Brands';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -370,16 +353,6 @@ p {
 
 }
 
-.cuadro-titulo-hobbies {
-    width: 82px;
-    height: 38px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 38px;
-    text-align: center;
-}
 
 .titulo-hobbies {
     text-align: center;
@@ -414,7 +387,6 @@ p {
 .icono-patinaje {
     width: 28px;
     height: 37px;
-    font-family: 'Font Awesome 5 Brands';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -441,7 +413,6 @@ p {
 .icono-guitarra {
     width: 28px;
     height: 37px;
-    font-family: 'Font Awesome 5 Brands';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -468,7 +439,6 @@ p {
 .icono-headphones {
     width: 28px;
     height: 37px;
-    font-family: 'Font Awesome 5 Brands';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -494,7 +464,6 @@ p {
 .icono-tele {
     width: 28px;
     height: 37px;
-    font-family: 'Font Awesome 5 Brands';
     font-style: normal;
     font-weight: 400;
     font-size: 32px;
@@ -515,6 +484,7 @@ p {
     height: 347px;
 
 }
+
 .cuadro-iconos-formacion {
     display: flex;
     flex-direction: row;
@@ -533,7 +503,7 @@ p {
     padding: 16px;
     gap: 10px;
     width: 368px;
-    height: 286px;
+    height: 368px;
     background: #FFFFFF;
 }
 
@@ -548,11 +518,12 @@ p {
     width: 30%;
 
 }
+.imagen-logo-formacion-ing {
+    width: 60%;
 
+}
 .formacion-titulo {
-    width: 178px;
     height: 26px;
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
@@ -563,10 +534,120 @@ p {
 .formacion-institucion {
     width: 92px;
     height: 19px;
-    font-family: 'Raleway';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     color: #464646;
+}
+
+.experiencias-secciones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 64px;
+}
+
+.experiencia-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+}
+
+.experiencia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+}
+
+.experiencia-imagen {
+    display: flex;
+    flex-direction: column;
+    border-color: #041c3b;
+    border-style: solid;
+    border-radius: 2%;
+    
+}
+
+.experiencia-imagen-img {
+    width: 100%;
+}
+
+.link-experiancia-contenedor {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+}
+
+.links-experiencias-boton {
+    
+    border-radius: 12px;
+    min-height: 70px;
+    min-width: 160px;
+    background-color: #04AA6D;
+    border: 4px;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    border-width: 4px;
+    border: solid;
+
+    /*box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.904);*/
+}
+
+.experiencia-proyecto {
+    font-size: 14px;
+}
+
+.experiencia-titulo {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.iframe-experiencia {
+    min-width: 600px;
+    min-height: 400px;
+}
+
+
+.iframe-experiencia2 {
+    min-width: 600px;
+    min-height: 700px;
+}
+
+.cuadro-contacto {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+.div-contacto {
+    display: flex;
+    width: 50%;
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.div-contacto-centro {
+    align-items: center;
+}
+
+.div-contacto > label {
+    margin-bottom: -10px;
+}
+
+.desarrollo-sobre-mi{
+    text-align: justify;
 }
